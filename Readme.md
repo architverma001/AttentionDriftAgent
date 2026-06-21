@@ -219,8 +219,11 @@ from real outcomes. That's the main thing the future ML work below is meant
 to fix.
 
 ---
+## 5. Sample Image from Dashboard
+<img width="1849" height="950" alt="image" src="https://github.com/user-attachments/assets/9efb753d-822a-45f8-9d20-e854fb8a7578" />
+---
 
-## 5. Future scope
+## 6. Future scope
 
 The `Filestructure` file in this repo sketches a much larger architecture
 than what's currently implemented — most of it isn't built yet. Notable gaps
