@@ -93,21 +93,6 @@ backend/dashboard code edits are picked up without rebuilding the image
 (uvicorn isn't run with `--reload` by default — restart the `api` container
 to pick up Python changes: `docker compose restart api`).
 
-### Running the backend without Docker (alternative)
-
-If you'd rather not use Docker for the API itself:
-
-```bash
-sudo apt update
-sudo apt install -y python3-venv python3-dev build-essential libpq-dev postgresql
-
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-
-# point DATABASE_URL in .env at a Postgres instance you control
-uvicorn app.main:app --host 0.0.0.0 --port 8000
-```
 
 ---
 
